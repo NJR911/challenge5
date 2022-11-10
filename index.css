@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'League Spartan';
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+    /*Top*/
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxt{
+    width: 50%;
+}
+
+    /*Side left*/
+.sidleft{
+    margin: 20px 30px;
+    height: 160px;
+}
+
+.hsl1{
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+    margin-top: -1px;
+    margin:0 20px ;
+    margin-right: 60px;
+}    
+
+.psl1{
+    color: hsl(333, 80%, 67%);
+    font-size: 13.5px;
+    margin: 20px ;
+    margin-right: 40px;
+}
+
+    /*Side right*/
+
+.sidright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.sidright div{
+    display: flex;
+    justify-content: center;
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+    background-color: hsla(300, 24%, 96%, 0.722);    
+    border-radius: 7px;
+    justify-content: space-between;
+    width: 280px;
+    height: 40px;
+
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    margin:0 45px;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+.star{
+    width: 12px;
+}
+.sr1{
+    margin-left: 5px;
+}
+.sr2{
+    font-size: 13px;
+}
+
+    /*Bottom*/
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.boxb{
+    background: hsl(300, 43%, 22%);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img{
+    border-radius: 60px;
+    width: 30px;
+    margin: 25px 0 20px 20px;
+}
+
+.s1{
+    display: flex;
+    align-items: center;
+}
+
+.s2{
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 13px;
+    margin: 2px 0 0 15px ;
+}
+
+.s3{
+    color: hsl(333, 80%, 67%);
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.pb1{
+    color: hsl(300, 24%, 96%);
+    font-size: 14px;
+    margin: 5px 14px 30px 18px;
+}
+
+.d1{
+    margin-bottom: 70px;
+}
+
+.d2{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.d3{
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        width: 850px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .container{
+        width: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container{
+        width: auto;
+    }
+}
+@media screen and (max-width: 750px) {
+    .container{
+        width: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    
+    .container{
+
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+        /*Side Left*/
+
+    .top{
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+        margin: 0 40px;
+        
+    }
+    .sidleft{
+
+        width: 100%;
+        
+
+    }
+    .hsl1{
+        font-size: 32px;
+    }
+    .psl1{
+        font-size: 15px;
+    }
+
+        /*Side Right*/
+    
+    .sidright{
+        justify-content: space-between;
+        width: 100%;
+    }
+        
+    .sidright div{  
+        flex-direction: column;
+        width: 290px;
+        height: 60px;
+        margin-top: 10px;
+        
+        }
+
+        .first{
+            margin: auto;
+        }
+        
+        .second{
+            margin: auto;
+        }
+        
+        .third{
+            margin: auto;
+        }    
+        
+        .star{
+            width: 17px;
+        }
+
+        .sr1{
+            margin-top: 8px;
+        }
+        
+        .sr2{
+            font-size: 15px;
+            margin-top: -5px;
+        }
+
+        /*Bottom*/
+
+        .bottom{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            margin-left: 70px;
+        }
+        
+        .boxb{
+            background: hsl(300, 43%, 22%);
+            margin: auto;
+            border-radius: 5px;
+            width: 280px;
+        }
+        
+        .d1{
+            margin-bottom: auto;
+        }
+        
+        .d2{
+            margin-top: 10px;
+            margin-bottom: auto;
+        }
+        
+        .d3{
+            margin-top: 10px;
+        }
+
+
+}
